@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <main className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">Email Validator SaaS</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Email Validator</h1>
       <EmailForm onValidationResult={handleValidationResult} />
       {validationResult && <ResultTable result={validationResult} />}
     </main>
